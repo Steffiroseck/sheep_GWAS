@@ -1,5 +1,5 @@
 #In the terminal:
-WORKDIR="/hdd/8TBSSD/Steffi/Sheep_genotypes/all_IDs/"
+WORKDIR="/hdd/8TBSSD/Steffi/Sheep_genotypes/all_IDs_2583/ssGWAS/Age_at_slaughter"
 cd $WORKDIR/
 
 # Next we need the file names for each sample in a format for PLINK to run. Lets do that.
