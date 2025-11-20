@@ -50,3 +50,8 @@ process_mlma_file <- function(file_path) {
   points(seq(-4,3.9999,8/length(gwasdata$Bonferroni)) ,sort(gwasdata$Bonferroni), col = "red", cex=0.4,lwd = .2)
 
 }
+
+# Loop through all MLMA files and process them
+for (mlma_file in mlma_files) {
+  process_mlma_file(mlma_file)
+}
