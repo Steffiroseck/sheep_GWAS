@@ -2,7 +2,7 @@
 
 SRC_DIR="/hdd/8TBSSD/Steffi/Sheep_genotypes/afbi_all"
 DST_DIR="/hdd/8TBSSD/Steffi/Sheep_genotypes/all_IDs_2583/ssGWAS/Age_at_slaughter/"
-FILE_LIST="/hdd/8TBSSD/Steffi/Sheep_genotypes/lambids"
+FILE_LIST="/hdd/8TBSSD/Steffi/Sheep_genotypes/all_IDs_2583/ssGWAS/Age_at_slaughter/lambids"
 
 # Create destination directory if it doesn't exist
 mkdir -p "$DST_DIR"
