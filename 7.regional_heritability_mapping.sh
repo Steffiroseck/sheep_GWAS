@@ -14,9 +14,8 @@ OUTDIR="RHM_results"
 mkdir $OUTDIR
 
 rhm_phenotype="phenotypes.txt"
-COVAR_FILE="covariates.txt"
 
-qc_out="QC/228_UKIDs_afterQC_pruned"
+qc_out="QC/lambs_afterQC_pruned"
 
 for phenotype in "Age_at_slaughter" 
 do
@@ -65,7 +64,6 @@ gcta64 \
 --mgrm ${phenotype}${Ch}_${start}_${end}.txt \
 --reml-lrt 1 \
 --pheno $rhm_phenotype \
---covar "$COVAR_FILE" \
 --out ./RHM_results/${phenotype}/${phenotype}${Ch}_${start}_${end} 
 rm ${phenotype}${Ch}_${start}_${end}.*
 
@@ -74,8 +72,6 @@ done
 done
 done
 done
-
-
 
 # Exrtract RHM results
 WORKDIR="/hdd/8TBSSD/Steffi/Sheep_genotypes/all_IDs_2583/ssGWAS/Age_at_slaughter"
