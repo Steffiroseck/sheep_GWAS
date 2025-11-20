@@ -87,4 +87,4 @@ plink --bfile QC/$qc_out  --extract QC/$qc_out".prune.in" --out QC/$qc_out"_prun
 #4. Additional QC that could be run are heterozygosity or inbreeding coefficient. However, this is not necessary for sheep/animal samples as inbreeding is normal.
 plink --bfile QC/$qc_out"_pruned"  --extract QC/$qc_out".prune.in" --het  --out QC/$qc_out --sheep --allow-extra-chr
 
-awk -F ' ' '{print $2}' QC/2583_UKIDs_afterQC_pruned.fam > QC/IDs_passed_PLINK_QC.txt
+awk -F ' ' '{print $2}' QC/lambs_afterQC_pruned.fam > QC/IDs_passed_PLINK_QC.txt
