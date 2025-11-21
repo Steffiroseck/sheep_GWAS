@@ -22,6 +22,7 @@ This repository contains scripts for conducting **Genome-Wide Association Studie
 
 ## 🔬 Workflow Overview
 
+```mermaid
 flowchart TD
     A[Genotype & Phenotype Data] --> B[QC with PLINK]
     B --> C[Imputation]
@@ -29,6 +30,8 @@ flowchart TD
     D --> E[Regional Heritability Mapping]
     E --> F[Visualization: Manhattan & QQ plots]
     F --> G[Candidate Gene Identification]
+
+```
 
 
 🚀 Getting Started
