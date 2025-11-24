@@ -9,7 +9,7 @@ This repository contains scripts for conducting **Genome-Wide Association Studie
 | File | Description |
 |------|-------------|
 | `1.copy_ids.sh` | Copies sample IDs and prepares metadata for downstream steps |
-| `2.clean_files.sh` | Cleans and formats genotype/phenotype input files |
+| `2.clean_files.sh` | Cleans and formats genotype input files |
 | `3.generate_filenames_for_run.sh` | Generates standardized filenames for pipeline runs |
 | `4.Plink_QC.sh` | Performs SNP and sample quality control using **PLINK** |
 | `5.imputation_and_gcta_gwas.sh` | Runs genotype imputation and GWAS using **GCTA** |
